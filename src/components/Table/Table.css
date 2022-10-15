@@ -1,0 +1,14 @@
+table {
+   border-collapse: collapse;
+   margin: 3rem auto;
+   table-layout: fixed;
+   width: 90%;
+}
+
+thead, tbody {
+   border-bottom: 1px solid #ccc;
+}
+
+th, td {
+   padding: 1rem;
+}
