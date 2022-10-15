@@ -1,8 +1,20 @@
-button {
-   background-color: #442ea8;
-   border: 1px solid #442ea8;
+.button {
    border-radius: 5px;
    color: #f1f1f1;
    cursor: pointer;
    padding: .7rem;
+   transition: .8s;
+}
+
+.button:hover {
+   box-shadow: 1px 1px 10px #858585;
+}
+
+.header-button {
+   background-color: #442ea8;
+   border: 1px solid #442ea8;
+}
+
+.header-button:hover {
+   background-color: #241661;
 }
