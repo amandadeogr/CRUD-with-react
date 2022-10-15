@@ -1,18 +1,20 @@
+import Button from '../Button';
+import Form from '../Form';
 import './Modal.css';
 
 const Modal = () => {
    return (
       <div className='modal'>
          <div className='modal-content'>
-            <header>
+            <header className='modal-header'>
                <h2>Novo cliente</h2>
             </header>
 
-            <form />
+            <Form />
 
-            <footer>
-               <button />
-               <button />
+            <footer className='modal-footer'>
+               <Button name="Fechar"/>
+               <Button name="Cadastrar"/>
             </footer>
          </div>
       </div>
