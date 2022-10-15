@@ -1,7 +1,8 @@
-.button {
+button {
    border-radius: 5px;
    color: #f1f1f1;
    cursor: pointer;
+   margin: 0 .2rem;
    padding: .7rem;
    transition: .8s;
 }
@@ -17,4 +18,14 @@
 
 .header-button:hover {
    background-color: #241661;
+}
+
+.close-button {
+   background-color: red;
+   border: 1px solid red;
+}
+
+.register-button {
+   background-color: green;
+   border: 1px solid green;
 }
