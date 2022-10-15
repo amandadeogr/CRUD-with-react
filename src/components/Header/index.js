@@ -5,7 +5,7 @@ const Header = () => {
    return (
       <header className='header'>
          <h1>Cadastro de clientes</h1>
-         <Button name="Cadastrar cliente"/>
+         <Button name="Cadastrar cliente" className="header-button" id="openModal"/>
       </header>
    )
 }

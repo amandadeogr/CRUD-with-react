@@ -13,8 +13,8 @@ const Modal = () => {
             <Form />
 
             <footer className='modal-footer'>
-               <Button name="Fechar"/>
-               <Button name="Cadastrar"/>
+               <Button name="Fechar" className="close-button" id="closeModal"/>
+               <Button name="Cadastrar" className="register-button" id="saveClient"/>
             </footer>
          </div>
       </div>

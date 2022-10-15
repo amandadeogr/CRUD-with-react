@@ -7,6 +7,10 @@
    width: 100%;
 }
 
+.modal.active {
+   display: block;
+}
+
 .modal-content {
    background-color: #ffffff;
    border-radius: 10px;
@@ -26,6 +30,8 @@
 }
 
 .modal-footer {
+   border-top: 1px solid #ccc;
    display: flex;
    justify-content: flex-end;
+   padding-top: 1rem;
 }
