@@ -1,5 +1,6 @@
 .modal {
    background-color: #0000009d;
+   display: none;
    height: 100%;
    left: 0;
    top: 0;
